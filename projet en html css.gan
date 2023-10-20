@@ -1,14 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Project en html et css" company="" webLink="http://" view-date="2023-10-12" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Project en html et css" company="" webLink="http://" view-date="2023-10-07" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="en_US">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd3" name="Name" width="200" order="0"/>
         <field id="tpd4" name="Begin date" width="75" order="1"/>
         <field id="tpd5" name="End date" width="75" order="2"/>
         <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#ff0033]]>
+        </option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Name" width="200" order="0"/>
-        <field id="1" name="Default role" width="75" order="1"/>
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -34,6 +37,28 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
+        <task id="0" name="maketage" color="#ff0033" meeting="false" start="2023-10-09" duration="1" complete="0" thirdDate="2023-10-12" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[-1ere page : page indixe, jai un backgooune avec le logo de mon resterant et jai mi aussi un ptit paragraphe avec in button qui me pass a nex paget
+-2eme page : page de menu qui contien navbar avc un offre et des photo de menu avec leur nom et prix
+-3eme page:page home qui contien navbar et logo au milieux avec annonce d'un offre et about us et fouter en dernier
+-4eme page: contien about us qui a un navbar et un logo au centre en hot et text about us avec un photo et au dessaou google maps qui donne localisation de restorant 
+-5eme page:dernier page contient contacte us  qui a un formule qu'il faut remplire pour contacter l devlopeur
+]]>
+            </notes>
+        </task>
+        <task id="1" name="code html de index" color="#8cb6ce" meeting="false" start="2023-10-10" duration="1" complete="0" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[jai prix beucoup de temp pour realiser le premier page jai vecu des problem donc jai essayer reviser css  .quand jai fini jai commencet acode la page de home]]>
+            </notes>
+        </task>
+        <task id="2" name="codage de 2 page home et menu" color="#8cb6ce" meeting="false" start="2023-10-11" duration="1" complete="0" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true"/>
+        <task id="4" name="3eme page de about us avec contacte us" color="#8cb6ce" meeting="false" start="2023-10-12" duration="1" complete="0" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[- about us: jai prix 2h peur realiser cette page la avec css
+-contacte us jai prix 3h avec le css ou finale le soire jais essayer de crier le planing ]]>
+            </notes>
+        </task>
     </tasks>
     <resources/>
     <allocations/>
